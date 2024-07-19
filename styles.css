@@ -9,16 +9,18 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.header, a{
-    font-size: 24px;
-    color: #f9faf8;
-    text-decoration: none;
+    gap: 50px;
 }
 
 .header{
-    padding: 10px;
+    font-size: 24px;
+    color: #f9faf8;
+    
+}
+
+
+.header{
+    padding: 20px 200px;
 }
 
 ul {
@@ -28,4 +30,29 @@ ul {
     display:flex;
     gap: 16px;
     align-items: center;
+}
+
+.text-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 150px 200px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+p, a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+img{
+    height: 400px;
+    width: auto;
 }
