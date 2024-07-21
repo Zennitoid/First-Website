@@ -20,7 +20,7 @@ body{
 
 
 .header{
-    padding: 20px 200px;
+    padding: 20px 350px;
 }
 
 ul {
@@ -37,22 +37,37 @@ ul {
     align-items: center;
     justify-content: space-between;
     background-color: #1f2937;
-    padding: 150px 200px;
+    padding: 150px 350px;
 }
 
 h1 {
     font-size: 48px;
     font-weight:bolder;
     color: #f9faf8;
+    margin: 0;
 }
 
 p, a{
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
+    margin:0;
+}
+
+.hero-text {
+    width: 450px;
 }
 
 img{
-    height: 400px;
+    height: 278px;
     width: auto;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 30px;
+    font-weight: bold;
 }
