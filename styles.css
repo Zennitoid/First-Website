@@ -40,14 +40,14 @@ ul {
     padding: 150px 350px;
 }
 
-h1 {
+.big-hero {
     font-size: 48px;
     font-weight:bolder;
     color: #f9faf8;
     margin: 0;
 }
 
-p, a{
+.small-hero, a{
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
@@ -70,4 +70,19 @@ button {
     border-radius: 7px;
     padding: 10px 30px;
     font-weight: bold;
+}
+
+
+.multi-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.info-header{
+    font-size:36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
 }
