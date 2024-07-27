@@ -53,6 +53,12 @@ ul {
     margin:0;
 }
 
+.subtext{
+    font-size: 18px;
+    text-wrap: wrap;
+    text-align: center;
+}
+
 .hero-text {
     width: 450px;
 }
@@ -74,9 +80,9 @@ button {
 
 .multi-image{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 50px;
 }
 
 .info-header{
@@ -85,4 +91,19 @@ button {
     color: #1F2937;
     text-align: center;
     margin:50px;
+}
+
+.sub-image{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 277.99px;
+}
+
+.sub-image img{
+    height: 200px;
+    width: auto;
+    border: 7px solid #3882f6;
+    border-radius: 25px;
+    margin-bottom: 5px;
 }
