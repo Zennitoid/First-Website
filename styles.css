@@ -3,16 +3,12 @@ body{
     margin: 0;
 }
 
-.header,
-.footer{
+.header{
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-}
-
-.header{
     font-size: 24px;
     color: #f9faf8;
     padding: 20px 350px;
@@ -159,4 +155,12 @@ button {
 .cta-button{
     border-color: white;
     border-width: 3px;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    padding: 35px;
+    font-size: 22px;
+    text-align: center;
 }
