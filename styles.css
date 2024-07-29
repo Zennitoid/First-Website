@@ -128,3 +128,35 @@ button {
     font-weight: bold;
     font-size: 20px;
 }
+
+.third-section{
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container{
+    box-sizing: border-box;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px 150px;
+    width: 1500px;
+    height: 150px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.cta-header{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+.cta-text{
+    font-size: 18px;
+    color: white;
+}
+.cta-button{
+    border-color: white;
+    border-width: 3px;
+}
